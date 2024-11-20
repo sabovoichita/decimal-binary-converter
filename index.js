@@ -49,6 +49,7 @@ const showAnimation = () => {
       document.getElementById(obj.inputVal).remove();
     }, obj.removeElDelay);
   });
+  setTimeout(() => {}, 20000);
 };
 
 const checkUserInput = () => {
