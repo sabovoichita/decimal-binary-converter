@@ -3,7 +3,13 @@ const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 const animationContainer = document.getElementById("animation-container");
 const animationData = [
-  { inputVal: 5, addElDelay: 1000 },
+  {
+    inputVal: 5,
+    addElDelay: 1000,
+    msg: "decimalToBinary(5) returns '10' + 1 (5 % 2). Then it pops off the stack.",
+    showMsgDelay: 15000,
+    removeElDelay: 20000,
+  },
   {
     inputVal: 2,
     addElDelay: 1500,
