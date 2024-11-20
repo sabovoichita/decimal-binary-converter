@@ -1,10 +1,3 @@
-const callStack = [];
-
-const a = () => "freeCodeCamp " + b();
-const b = () => "is " + c();
-const c = () => "awesome!";
-console.log(a());
-
 const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
@@ -65,3 +58,9 @@ numberInput.addEventListener("keydown", (e) => {
 //   console.log("Remainders: ", remainders);
 //   result.innerText = remainders.reverse().join("");
 // };
+
+// const callStack = [];
+// const a = () => "freeCodeCamp " + b();
+// const b = () => "is " + c();
+// const c = () => "awesome!";
+// console.log(a());
