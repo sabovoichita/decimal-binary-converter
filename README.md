@@ -7,7 +7,7 @@ Recursion is a programming concept where a function calls itself. This can reduc
 # [live](https://sabovoichita.github.io/decimal-binary-converter/)
 
 ![preview](preview.png)
-![preview1](preview1.png>)
-![preview2](preview2.png>)
-![preview3](preview3.png>)
-![preview4](preview4.png>)
+![preview1](preview1.png)
+![preview2](preview2.png)
+![preview3](preview3.png)
+![preview4](preview4.png)
