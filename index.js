@@ -10,6 +10,7 @@ const countdown = (number) => {
     countdown(number - 1);
   }
 };
+countdown(3);
 
 const decimalToBinary = (input) => {
   let binary = "";
