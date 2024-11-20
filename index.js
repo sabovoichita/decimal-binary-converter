@@ -5,7 +5,7 @@ const result = document.getElementById("result");
 const decimalToBinary = (input) => {
   let binary = "";
   while (input > 0) {
-    input = 0;
+    input = Math.flor(input / 2);
   }
   result.innerText = binary;
 };
