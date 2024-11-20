@@ -4,6 +4,9 @@ const result = document.getElementById("result");
 
 const decimalToBinary = (input) => {
   let binary = "";
+  if (input === 0) {
+    binary = "0";
+  }
   while (input > 0) {
     input = Math.floor(input / 2);
     binary = (input % 2) + binary;
