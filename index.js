@@ -13,7 +13,7 @@ const decimalToBinary = (input) => {
 const showAnimation = () => {};
 
 const checkUserInput = () => {
-  const inputInt = inputInt;
+  const inputInt = parseInt(numberInput.value);
   if (!numberInput.value || isNaN(inputInt) || inputInt < 0) {
     alert("Please provide a decimal number greater than or equal to 0");
     return;
