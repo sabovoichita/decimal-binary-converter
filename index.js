@@ -42,6 +42,7 @@ const showAnimation = () => {
       <p id="${obj.inputVal}" class="animation-frame">decimalToBinary(${obj.inputVal})</p>
       `;
     }, obj.addElDelay);
+    setTimeout(() => {}, obj.showMsgDelay);
   });
 };
 
